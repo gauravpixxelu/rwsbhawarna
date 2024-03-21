@@ -1,0 +1,92 @@
+@font-face {font-family: 'RecifeDisplay';src: url('../public/fonts/recifeDisplay/RecifeDisplay-Light.woff') format('woff');font-weight: 300;}
+@font-face {font-family: 'RecifeDisplay';src: url('../public/fonts/recifeDisplay/RecifeDisplay-Regular.woff') format('woff');font-weight: 400;}
+@font-face {font-family: 'RecifeDisplay';src: url('../public/fonts/recifeDisplay/RecifeDisplay-SemiBold.woff') format('woff');font-weight: 600;}
+@font-face {font-family: 'RecifeDisplay';src: url('../public/fonts/recifeDisplay/RecifeDisplay-Bold.woff') format('woff');font-weight: 700;}
+@font-face {font-family: 'RecifeDisplay';src: url('../public/fonts/recifeDisplay/RecifeDisplay-Black.woff') format('woff');font-weight: 900;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-Thin.woff') format('woff');font-weight: 100;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-Book.woff') format('woff');font-weight: 300;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-Regular.woff') format('woff');font-weight: 400;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-Medium.woff') format('woff');font-weight: 500;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-SemiBold.woff') format('woff');font-weight: 600;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-Bold.woff') format('woff');font-weight: 700;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-ExtraBold.woff') format('woff');font-weight: 800;}
+@font-face {font-family: 'Axiforma';src: url('../public/fonts/axiforma/Axiforma-Black.woff') format('woff');font-weight: 900;}
+:root {
+    --primary-font: 'Axiforma';
+    --secondary-font: 'RecifeDisplay';
+    --primary-color: #FFDF00;
+    --secondary-color: #155B2E;
+    --heading-color: #202020;
+    --text-color: #343434;
+    --white-color: #fff;
+    --black-color: #000;
+}
+html body {
+    margin: 0;
+    font-family: var(--primary-font);
+    color: var(--text-color);
+    font-weight: 400;
+}
+.container {
+    max-width: 1270px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: var(--secondary-font);
+    color: var(--heading-color);
+}
+h1 {
+    font-size: 66px;
+}
+h2 {
+    font-size: 56px;
+}
+h3 {
+    font-size: 44px;
+}
+h4 {
+    font-size: 36px;
+}
+h5 {
+    font-size: 30px;
+}
+h6 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+
+
+
+/* -- Slider Css -- */
+.slick-dots {
+    position: relative;
+    bottom: 0;
+}
+.slick-dots li {
+    margin: 0 5px;
+    width: auto;
+    height: auto;
+}
+.slick-dots li button {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background: #ddd;
+    padding: 0;
+}
+.slick-dots li button:before {
+    display: none;
+}
+.slick-dots li.slick-active button {
+    background: var(--primary-color);
+}
+.slick-track .slick-slide > div {
+    margin: 0 10px;
+}
