@@ -24,3 +24,27 @@
     background: #FBFBFB;
     padding: 80px 0;
 }
+.ourschool_sec {
+    background: var(--primary-color);
+    padding: 80px 0;
+}
+.ourschool_sec_hdng {
+    margin-bottom: 20px;
+}
+.ourschool_boxes h6 {
+    margin: 20px 0 10px;
+    color: var(--heading-color);
+}
+.ourschool_boxes a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+.partner_sec {
+    padding: 80px 0;
+}
+.happyface_sec {
+    padding: 80px 0;
+}
+.happyface_sec_hdng {
+    margin-bottom: 20px;
+}

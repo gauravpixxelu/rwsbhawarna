@@ -20,12 +20,14 @@
     --text-color: #343434;
     --white-color: #fff;
     --black-color: #000;
+    --footer-text-color: #848484;
 }
 html body {
     margin: 0;
     font-family: var(--primary-font);
     color: var(--text-color);
     font-weight: 400;
+    overflow-x: hidden;
 }
 .container {
     max-width: 1270px;
@@ -33,6 +35,9 @@ html body {
 h1, h2, h3, h4, h5 {
     font-family: var(--secondary-font);
     color: var(--heading-color);
+}
+h1 span, h2 span, h3 span, h4 span, h5 span {
+    font-weight: 700;
 }
 h1 {
     font-size: 66px;
@@ -61,6 +66,40 @@ a {
 }
 
 
+
+/* -- Header Css -- */
+
+
+/* -- Footer Css -- */
+.website-footer {
+    background: var(--heading-color);
+    padding: 10px 0;
+}
+.website-footer .copyright-text p {
+    color: var(--footer-text-color);
+    margin: 0;
+    font-size: 14px;
+}
+.website-footer .row {
+    align-items: center;
+}
+.website-footer .social-icons ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.website-footer .social-icons ul li {
+    list-style: none;
+}
+.website-footer .social-icons ul li a img {
+    transition: 0.3s;
+}
+.website-footer .social-icons ul li a:hover img {
+    filter: brightness(1.5);
+}
 
 
 /* -- Slider Css -- */

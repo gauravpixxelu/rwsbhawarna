@@ -1,0 +1,13 @@
+.logoslider_imgs {
+    height: 170px;
+    width: 170px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+}
+.logoslider div {
+    overflow: visible;
+}

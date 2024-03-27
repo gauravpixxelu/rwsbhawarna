@@ -34,7 +34,7 @@ const OurSchoolSection = () => {
         <>
             <section className={HomeCss.ourschool_sec}>
                 <div className="container">
-                    <div className={HomeCss.ourschool_sec}>
+                    <div className={HomeCss.ourschool_sec_hdng}>
                         <h2>Our <span>School</span></h2>
                     </div>
                     <div className="row">
@@ -48,7 +48,7 @@ const OurSchoolSection = () => {
                                         height={1000}
                                         style={{ width: '100%', height: 'auto'}}
                                     />
-                                    <h5>{ourSchoolContent.title}</h5>
+                                    <h6>{ourSchoolContent.title}</h6>
                                     <Link href={ourSchoolContent.link}>Read More</Link>
                                 </div>
                             </div>

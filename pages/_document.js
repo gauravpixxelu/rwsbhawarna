@@ -1,3 +1,4 @@
+import Footer from '@/components/footer/footer';
 import Header from '@/components/header/header';
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
@@ -12,6 +13,7 @@ export default class MyDocument extends Document {
           <Header />
           <Main />
           <NextScript />
+          <Footer />
         </body>
       </Html>
     );
