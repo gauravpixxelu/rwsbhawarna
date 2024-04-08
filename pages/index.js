@@ -1,3 +1,5 @@
+import Footer from '@/components/footer/footer';
+import Header from '@/components/header/header';
 import AboutSection from "@/components/homepage/aboutSection"
 import BannerSection from "@/components/homepage/bannerSection"
 import BelowBannerSection from "@/components/homepage/belowBannerSection"
@@ -11,6 +13,7 @@ import TestimonialSection from "@/components/homepage/testimonialSection"
 function Home() {
     return (
         <>
+            <Header />
             <BannerSection />
             <BelowBannerSection />
             <AboutSection />
@@ -20,6 +23,7 @@ function Home() {
             <HappyFacesSection />
             <TestimonialSection />
             <PartnersSection />
+            <Footer />
         </>
     )
 }

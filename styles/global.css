@@ -101,7 +101,61 @@ a {
     z-index: 9;
 }
 
+
 /* -- Header Css -- */
+.header-hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+    padding: 0;
+}
+.header-hamburger span {
+    background: #333;
+    display: block;
+    height: 2px;
+    margin: 7px auto;
+    transition: all 0.3s ease-in-out;
+    width: 30px;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-bar.active {
+    transform: translateY(0);
+}
+.menu-bar {
+    position: fixed;
+    background: var(--primary-color);
+    height: 100vh;
+    width: 400px;
+    top: 100px;
+    z-index: 9999;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: 0.35s;
+}
+.website-header {
+    background: var(--primary-color);
+}
+.website-header .container {
+    position: relative;
+}
+.website-header.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+
+
+
+
 
 
 /* -- Footer Css -- */
@@ -171,3 +225,9 @@ button.nav-link.active {
 .slick-track .slick-slide > div {
     margin: 0 10px;
 }
+
+
+
+
+
+

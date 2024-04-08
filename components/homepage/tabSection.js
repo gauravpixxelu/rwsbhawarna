@@ -1,10 +1,9 @@
+import { useEffect, useState } from 'react';
 import HomeCss from './home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-
-
 
 const tabs = [
     {
@@ -52,11 +51,17 @@ const tabs = [
     }
 ];
 
-const renderHtmlContent = (htmlContent) => {
-    return { __html: htmlContent };
-};
-
 const TabSection = () => {
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    const renderHtmlContent = (htmlContent) => {
+        return isClient ? { __html: htmlContent } : null;
+    };
+
     return (
         <section className={HomeCss.tabs_sec}>
             <div className="container">
