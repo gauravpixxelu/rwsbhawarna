@@ -196,6 +196,11 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+.menu-bar ul.open-menu li a span {
+    display: block;
+    text-align: right;
+    width: 100%;
+}
 .sub-menu-item ul.sub-menu li a:hover {
     background: var(--white-color);
 }

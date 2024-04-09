@@ -11,8 +11,12 @@ const HamburgerNavbar = () => {
     setSubMenuOpen(null); 
   };
 
-  const toggleSubMenu = (index) => {
-    setSubMenuOpen(subMenuOpen === index ? null : index);
+  const handleSubMenuEnter = (index) => {
+    setSubMenuOpen(index);
+  };
+
+  const handleSubMenuLeave = (index) => {
+    setSubMenuOpen(index === subMenuOpen ? null : index);
   };
 
   return (
@@ -20,37 +24,37 @@ const HamburgerNavbar = () => {
       <div className={`menu-bar${isOpen ? ' active' : ''}`}>
         <ul className="open-menu">
           <li>
-            <Link href="#">test<span onClick={() => toggleSubMenu(0)}>
+            <Link href="#">test<span onMouseEnter={() => handleSubMenuEnter(0)} onMouseLeave={() => handleSubMenuLeave(0)}>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#">test<span onClick={() => toggleSubMenu(1)}>
+            <Link href="#">test<span onMouseEnter={() => handleSubMenuEnter(1)} onMouseLeave={() => handleSubMenuLeave(1)}>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#">test<span onClick={() => toggleSubMenu(2)}>
+            <Link href="#">test<span onMouseEnter={() => handleSubMenuEnter(2)} onMouseLeave={() => handleSubMenuLeave(2)}>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#">test<span onClick={() => toggleSubMenu(3)}>
+            <Link href="#">test<span onMouseEnter={() => handleSubMenuEnter(3)} onMouseLeave={() => handleSubMenuLeave(3)}>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#">test<span onClick={() => toggleSubMenu(4)}>
+            <Link href="#">test<span onMouseEnter={() => handleSubMenuEnter(4)} onMouseLeave={() => handleSubMenuLeave(4)}>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#">test<span onClick={() => toggleSubMenu(5)}>
+            <Link href="#">test<span onMouseEnter={() => handleSubMenuEnter(5)} onMouseLeave={() => handleSubMenuLeave(5)}>
               <ArrowRight />
             </span>
             </Link>
