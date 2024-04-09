@@ -2,11 +2,35 @@
     border-radius: 10px;
     border: 1px solid #F0F0F0;
     background: var(--white-color);
-    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.05);
-    padding: 20px;
+    /* box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.05); */
+    padding: 20px 20px 40px;  
+    outline: 0;
+    position: relative;
 }
 .testimonial_name {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 10px;
+}
+.testimonial_txt {
+    height: 140px;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+.testimonial_txt::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F0F0F0;
+}
+.testimonial_txt::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--primary-color);
+}
+.quote {
+    position: absolute;
+    color: #ddd;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
 }

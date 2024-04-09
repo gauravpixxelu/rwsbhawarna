@@ -7,6 +7,9 @@ const TestimonialSection = () => {
         <>
             <section className={HomeCss.testimonial_sec}>
                 <div className="container">
+                <div className={HomeCss.happyface_sec_hdng}>
+                        <h2>Happy Parents <span>Testimonials</span> </h2>
+                    </div>
                     <TestimonialSlider />
                 </div>
             </section>

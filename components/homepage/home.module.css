@@ -127,3 +127,30 @@
 .belowbanner_sec h3 {
     text-align: center;
 }
+.video_container {
+    position: relative;
+    overflow: hidden;
+}
+.video_container:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 100%;
+    padding-bottom: 35.93056%;
+}
+.video_container iframe {
+    width: 100vw;
+    height: 56.25vw;
+    min-height: 100%;
+    min-width: 177.77vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.activity_sec {
+    padding-top: 70px;
+}
