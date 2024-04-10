@@ -73,6 +73,14 @@ const HamburgerNavbar = () => {
           </ul>
         </div>
       </div>
+      
+
+      <button type="button" className="header-hamburger" onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div className="sub-menu-item">
         {subMenuOpen === 0 && (
           <ul className="sub-menu">
@@ -103,12 +111,6 @@ const HamburgerNavbar = () => {
           </ul>
         )}
       </div>
-
-      <button type="button" className="header-hamburger" onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
     </>
   );
 };

@@ -113,11 +113,15 @@ a {
 /* -- Header Css -- */
 .header-hamburger {
     background: none;
-    border: none;
     cursor: pointer;
     position: relative;
     z-index: 9;
     padding: 0;
+    border: 1px solid #000;
+    border-radius: 7px;
+    height: 50px;
+    width: 50px;
+    padding: 0 9px;
 }
 .header-hamburger span {
     background: #333;
@@ -171,6 +175,17 @@ a {
     margin-top: 50px;
     margin-bottom: 0;
     gap: 15px;
+}
+.menu-bar.active + button.header-hamburger span {
+    transform: rotate(45deg);
+    margin: 0;
+}
+.menu-bar.active + button.header-hamburger span:nth-child(2) {
+    display: none;
+}
+.menu-bar.active + button.header-hamburger span:nth-child(3) {
+    transform: rotate(135deg);
+    margin-top: -2px;
 }
 .header-social-icons ul li {
     list-style: none;
@@ -242,7 +257,7 @@ a {
     display: flex;
     gap: 15px;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 
@@ -376,5 +391,17 @@ button.nav-link.active {
         padding: 7px;
         z-index: 99;
     }
-
+    .header-btns {
+        display: none;
+    }
+    .website-header {
+        padding: 0 10px;
+    }
+    .header-box > img {
+        width: 220px;
+        height: auto;
+    }
+    .header-hamburger {
+        margin-left: auto;
+    }
 }
