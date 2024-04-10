@@ -154,3 +154,46 @@
 .activity_sec {
     padding-top: 70px;
 }
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .video_container:before {
+        padding-bottom: 100%;
+    }
+    .belowbanner_sec {
+        padding: 20px 0;
+    }
+    .about_sec_txt h3 {
+        margin: 5px 0 ;
+    }
+    .about_sec {
+        padding: 30px 0;
+    }
+    .about_txt {
+        padding-top: 30px;
+    }
+    .mission_sec {
+        padding: 0 0;
+    }
+    .mission_boxes {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .tabs_sec {
+        padding: 30px 0;
+    }
+    .tabs_sec ul {
+        margin-bottom: 20px;
+        gap: 5px;
+    }
+    .tabs_sec ul li button {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .ourschool_sec {
+        padding: 20px 0;
+    }
+}

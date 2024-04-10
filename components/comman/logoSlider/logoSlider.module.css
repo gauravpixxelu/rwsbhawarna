@@ -11,3 +11,9 @@
 .logoslider div {
     overflow: visible;
 }
+
+@media screen and (max-width:767px) { 
+    .logoslider div {
+        overflow: hidden;
+    }
+}
