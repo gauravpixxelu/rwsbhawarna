@@ -25,25 +25,25 @@ const HamburgerNavbar = () => {
       <div className={`menu-bar${isOpen ? ' active' : ''}`}>
         <ul className="open-menu">
           <li>
-            <Link href="#" onMouseEnter={() => handleSubMenuEnter(0)} onMouseLeave={() => handleSubMenuLeave(1)}>About Us<span>
+            <Link href="#" onMouseEnter={() => handleSubMenuEnter(0)} onMouseLeave={() => handleSubMenuLeave(0)}>About Us<span>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li> 
-            <Link href="#" onMouseEnter={() => handleSubMenuEnter(1)} onMouseLeave={() => handleSubMenuLeave(2)}>Admission<span>
+            <Link href="#" onMouseEnter={() => handleSubMenuEnter(1)} onMouseLeave={() => handleSubMenuLeave(1)}>Admission<span>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#" onMouseEnter={() => handleSubMenuEnter(2)} onMouseLeave={() => handleSubMenuLeave(3)}>Academics<span>
+            <Link href="#" onMouseEnter={() => handleSubMenuEnter(2)} onMouseLeave={() => handleSubMenuLeave(2)}>Academics<span>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#" onMouseEnter={() => handleSubMenuEnter(3)} onMouseLeave={() => handleSubMenuLeave(4)}>Activities<span>
+            <Link href="#" onMouseEnter={() => handleSubMenuEnter(3)} onMouseLeave={() => handleSubMenuLeave(3)}>Activities<span>
               <ArrowRight />
             </span>
             </Link>
