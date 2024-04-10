@@ -1,5 +1,5 @@
 import HomeCss from './home.module.css'
-import LogoSlider from '../comman/logoSlider/logoSlider'
+import LogoSlider from '../../comman/logoSlider/logoSlider'
 
 const PartnersSection = () => {
     return (

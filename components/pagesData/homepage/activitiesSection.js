@@ -1,5 +1,5 @@
 import HomeCss from './home.module.css'
-import ActivitySlider from '../comman/activitySlider/activitySlider'
+import ActivitySlider from '../../comman/activitySlider/activitySlider'
 
 const ActivitiesSection = () => {
     return (

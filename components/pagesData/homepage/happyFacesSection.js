@@ -1,5 +1,5 @@
 import HomeCss from './home.module.css'
-import StudentSlider from '../comman/studentSlider/studentSlider'
+import StudentSlider from '../../comman/studentSlider/studentSlider'
 
 const HappyFacesSection = () => {
     return (

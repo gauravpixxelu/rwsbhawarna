@@ -1,5 +1,5 @@
 import HomeCss from './home.module.css'
-import TestimonialSlider from '../comman/testimonial/testimonialSlider'
+import TestimonialSlider from '../../comman/testimonial/testimonialSlider'
 
 
 const TestimonialSection = () => {
