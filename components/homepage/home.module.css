@@ -138,6 +138,19 @@
     width: 100%;
     padding-bottom: 35.93056%;
 }
+.banner_txt {
+    z-index: 1;
+    position: relative;
+    font-family: 'Axiforma';
+    color: rgba(255, 255, 255, 0.13);
+    text-align: center;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    bottom: 50px;
+}
 .video_container iframe {
     width: 100vw;
     height: 56.25vw;
@@ -195,5 +208,10 @@
     }
     .ourschool_sec {
         padding: 20px 0;
+    }
+    .ourschool_sec .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
     }
 }

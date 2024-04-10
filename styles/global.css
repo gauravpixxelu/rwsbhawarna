@@ -199,6 +199,7 @@ a {
 .website-header {
     background: var(--primary-color);
     padding: 0 50px;
+    box-shadow: 0 12px 24px 0 rgb(0 0 0 / 10%);
 }
 .website-header .container {
     position: relative;
@@ -403,5 +404,21 @@ button.nav-link.active {
     }
     .header-hamburger {
         margin-left: auto;
+    }
+    .menu-bar {
+        width: 100%;
+        top: 70px;
+    }
+    .menu-bar ul.open-menu li a {
+        padding: 15px 20px;
+    }
+    .menu-info ul {
+        margin: 15px 0 0;
+    }
+    .menu-info {
+        padding: 0 15px;
+    }
+    .header-social-icons ul {
+        margin-top: 30px;
     }
 }

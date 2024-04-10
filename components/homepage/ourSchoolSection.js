@@ -37,7 +37,7 @@ const OurSchoolSection = () => {
                     <div className={HomeCss.ourschool_sec_hdng}>
                         <h2>Our <span>School</span></h2>
                     </div>
-                    <div className="row">
+                    <div className={`${HomeCss.row} row`}>
                         {ourSchoolContent.map((ourSchoolContent) => (
                             <div className="col-md-3" key={ourSchoolContent.id}>
                                 <div className={HomeCss.ourschool_boxes}>

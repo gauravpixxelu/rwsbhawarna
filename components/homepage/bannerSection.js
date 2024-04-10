@@ -11,6 +11,7 @@ const BannerSection = () => {
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
         ></iframe>
+        <h2 className={HomeCss.banner_txt}>Rainbow World School</h2>
       </div>
     </section>
   );
