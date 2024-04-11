@@ -22,20 +22,21 @@ function Header() {
     return (
         <>
             <header className={`website-header${isSticky ? ' sticky' : ''}`}>
-                    <div className="header-box">
-                        <Image
-                            src="/images/logo.png"
-                            alt="Logo"
-                            width={300}
-                            height={100}
-                        />
-                        <div className="header-btns">
-                            <Link href="#" className="custom-btn black-btn"><span>Quick Links</span></Link>
-                            <Link href="#" className="custom-btn black-btn"><span>Contact Us</span></Link>
-                            <Link href="#" className="custom-btn black-btn"><span>Download App</span></Link>
-                        </div>
-                        <HamburgerNavbar />
+                <div className="header-box">
+                    <Link href="/"><Image
+                        src="/images/logo.png"
+                        alt="Logo"
+                        width={300}
+                        height={100}
+                    />
+                    </Link>
+                    <div className="header-btns">
+                        <Link href="#" className="custom-btn black-btn"><span>Quick Links</span></Link>
+                        <Link href="#" className="custom-btn black-btn"><span>Contact Us</span></Link>
+                        <Link href="#" className="custom-btn black-btn"><span>Download App</span></Link>
                     </div>
+                    <HamburgerNavbar />
+                </div>
             </header>
         </>
     );
