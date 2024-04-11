@@ -12,7 +12,7 @@ const ResultsAcademicsSection = () => {
                         <tr>
                             <th>SL NO.</th>
                             <th>DOCUMENTS/INFORMATION</th>
-                            <th>LINKS OF UPLOADED DOCUMENTS ON YOUR SCHOOL'S WEBSITE</th>
+                            <th>LINKS OF UPLOADED DOCUMENTS ON YOUR SCHOOL WEBSITE</th>
                         </tr>
                     </thead>
                     <tbody>
