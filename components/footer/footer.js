@@ -5,7 +5,7 @@ import Link from "next/link";
 function Footer() {
     return (
         <>
-            <section className="website-footer">
+            <footer className="website-footer">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -26,7 +26,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </footer>
         </>
     );
 }

@@ -31,3 +31,30 @@
 .data_sec th:nth-child(3), .data_sec td:nth-child(3) {
     width: 45%;
 }
+.data_sec:last-child {
+    padding-bottom: 30px;
+}
+.data_sec_five {
+    padding-top: 30px;
+}
+.data_sec_five h6 {
+    font-weight: 800;
+}
+.data_sec_five p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.data_sec_five p b {
+    font-weight: 800;
+}
+.data_sec_five th, .data_sec_five td {
+    font-size: 14px;
+    padding: 10px 25px;
+    vertical-align: middle;
+}
+.data_sec_five th {
+    font-weight: 700;
+}
+.data_sec_five td {
+    font-weight: 300;
+}

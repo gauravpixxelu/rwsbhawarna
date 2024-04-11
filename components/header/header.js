@@ -21,7 +21,7 @@ function Header() {
 
     return (
         <>
-            <section className={`website-header${isSticky ? ' sticky' : ''}`}>
+            <header className={`website-header${isSticky ? ' sticky' : ''}`}>
                     <div className="header-box">
                         <Image
                             src="/images/logo.png"
@@ -36,7 +36,7 @@ function Header() {
                         </div>
                         <HamburgerNavbar />
                     </div>
-            </section>
+            </header>
         </>
     );
 }
