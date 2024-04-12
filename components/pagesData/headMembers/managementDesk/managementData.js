@@ -6,18 +6,18 @@ const ManagementData = () => {
         <section className={FounderStyle.founder_sec}>
             <div className="container">
                 <Image
-                    src="/images/mandatoryDisclosure/mandatory-banner.jpg"
+                    src="/images/headMembers/management.jpg"
                     alt="Icons"
                     width={1920}
                     height={430}
                     style={{ width: '100%', height: 'auto' }}
                 />
-                <h3>While educating the minds of our youth, we must not forget to educate their heart.</h3>
-                <p>Success comes to those who work hard and stays with those who do not rest on past laurels. Rainbow World School is an amalgamation of exceptionally dedicated and talented teachers, an experienced and efficient management, and a safe and nurturing environment that is spread across academics, sports, artistic and social opportunities for its students.</p>
-                <p>We believe in creating a culture within the school where all our stakeholders are confident in receiving the best in education.</p>
-                <p>Since our student population is multi-cultural and multi linguistic, we teach our students, the importance of love, respect and acceptance for each other’s language and culture. Discipline, values and integrity are the foundations of this Institution. We always encourage, persuade and mentor our students to achieve their highest potential and our mission is to provide a platform for the same. Rainbow World School, Bhawarna has a vision to produce conscientious, confident and productive humans who will go out into the world and lead.</p>
-                <h6>Dr. J.R. Kashyap</h6>
-                <p className={FounderStyle.designation}>Founder and Visionary</p>
+                <h3>The goal of education is advancement of knowledge and the dissemination of truth.</h3>
+                <p>One of the most outstanding achievements of the past century has been the realization that education is an indispensable asset of every individual, every community and every nation. It can accelerate the march towards better and higher quality of life .Education alone can convert the dream of peace, freedom and social justice into a practical reality.</p>
+                <p>My heart fills with utmost pleasure as I perceive the growth and accomplishments made at the school. The school has taken a dedicated approach towards developing its core infrastructure comprising of well-equipped facilities and a hub of other amenities for a quality education and has always been accountable and legitimate. We care about our children, provide them homely atmosphere, help them to come up as responsible citizens of the country as well as conscious about their dignity and identity. Rainbow World School strives to provide a platform where a child is holistically educated, encompassing physical, mental, social, emotional and spiritual growth. We accentuate learning by synergy and collaboration and this surely comes with a positive attitude towards life. Every student is given a voice and avenue where they are able to express their knowledge, dream and achieve big. Our co- curricular activities are designed to bring out the best in students and transforming them into loving, caring and responsible human beings.</p>
+                <p>Rainbow group of schools and Institutes are committed to provide quality education as we have a vision that every rainbowite is a leader and our mission being to nurture multitalented and multitasking future leaders with deep-rooted value system.</p>
+                <h6>Mrs. Meenakshi Kashyap</h6>
+                <p className={FounderStyle.designation}>Management Desk</p>
             </div>
         </section>
     );

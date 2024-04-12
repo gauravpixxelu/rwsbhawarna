@@ -6,7 +6,7 @@ const FounderData = () => {
         <section className={FounderStyle.founder_sec}>
             <div className="container">
                 <Image
-                    src="/images/mandatoryDisclosure/mandatory-banner.jpg"
+                    src="/images/headMembers/founder.jpg"
                     alt="Icons"
                     width={1920}
                     height={430}

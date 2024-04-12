@@ -6,3 +6,10 @@
 .founder_sec {
     padding: 50px 0;
 }
+.designation {
+    font-weight: 600;
+    font-size: 18px;
+}
+.founder_sec h6 {
+    font-weight: 700;
+}

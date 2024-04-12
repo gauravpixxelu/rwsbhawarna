@@ -2,8 +2,8 @@
 
 import Footer from '@/components/footer/footer';
 import Header from '@/components/header/header';
-import BannerSection from '@/components/pagesData/founderVisionary/bannerSection';
-import FounderData from '@/components/pagesData/founderVisionary/founderData';
+import BannerSection from '@/components/pagesData/headMembers/founderVisionary/bannerSection';
+import FounderData from '@/components/pagesData/headMembers/founderVisionary/founderData';
 
 function FounderVisionary() {
     return (

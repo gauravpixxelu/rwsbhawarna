@@ -150,6 +150,10 @@ a {
     transform: translateX(-100%);
     transition: 0.35s;
 }
+.sub-menu-item.active .sub-menu {
+    transform: translateX(430px);
+    z-index: 9999;
+}
 .sub-menu-item .sub-menu {
     position: fixed;
     background: #fff;
@@ -157,7 +161,7 @@ a {
     width: 430px;
     top: 100px;
     z-index: 9998;
-    transform: translateX(430px);
+    transform: translateX(0);
     transition: 0.35s;
     left: 0;
 }
