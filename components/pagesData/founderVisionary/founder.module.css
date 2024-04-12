@@ -1,0 +1,8 @@
+.founder_sec img {
+    border-radius: 11px;
+    box-shadow: 7px 7px 0 0 var(--primary-color);
+    margin-bottom: 20px;
+}
+.founder_sec {
+    padding: 50px 0;
+}

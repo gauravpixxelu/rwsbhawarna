@@ -6,25 +6,25 @@ const ourSchoolContent = [
     {
         id: 1,
         image: '/images/homepage/school-img1.jpg',
-        title: 'Early Learning',
+        title: 'Pre Primary',
         link: '#',
     },
     {
         id: 2,
         image: '/images/homepage/school-img2.jpg',
-        title: 'Junior School',
+        title: 'Primary',
         link: '#',
     },
     {
         id: 3,
         image: '/images/homepage/school-img3.jpg',
-        title: 'Senior School',
+        title: 'Middle Wing',
         link: '#',
     },
     {
         id: 4,
         image: '/images/homepage/school-img4.jpg',
-        title: 'Boarding School',
+        title: 'Secondary',
         link: '#',
     }
 ];
