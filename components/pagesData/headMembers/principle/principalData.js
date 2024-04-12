@@ -1,7 +1,7 @@
 import Image from "next/image"
-import FounderStyle from "./founder.module.css";
+import FounderStyle from "../founder.module.css";
 
-const FounderData = () => {
+const PrincipleData = () => {
     return (
         <section className={FounderStyle.founder_sec}>
             <div className="container">
@@ -23,4 +23,4 @@ const FounderData = () => {
     );
 };
 
-export default FounderData;
+export default PrincipleData;

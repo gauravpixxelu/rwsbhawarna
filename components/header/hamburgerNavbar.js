@@ -16,8 +16,8 @@ const HamburgerNavbar = () => {
     setSubMenuOpen(index);
   };
 
-  const handleSubMenuLeave = (index) => {
-    setSubMenuOpen(index === subMenuOpen ? null : index);
+  const handleSubMenuLeave = () => {
+    setSubMenuOpen(null);
   };
 
   return (
@@ -81,12 +81,16 @@ const HamburgerNavbar = () => {
         <span></span>
       </button>
 
-      <div className="sub-menu-item">
+      <div className={`sub-menu-item${subMenuOpen !== null ? ' active' : ''}`}>
         {subMenuOpen === 0 && (
           <ul className="sub-menu">
-            <li><Link href="#">Submenu Item 1</Link></li>
-            <li><Link href="#">Submenu Item 2</Link></li>
-            <li><Link href="#">Submenu Item 3</Link></li>
+            <li><Link href="/about-us/overview">Overview</Link></li>
+            <li><Link href="/about-us/founder-visionary">Founder & Visionary</Link></li>
+            <li><Link href="/about-us/management-desk">Management Desk</Link></li>
+            <li><Link href="/about-us/principal">Principal</Link></li>
+            <li><Link href="/about-us/chairperson">Chairperson</Link></li>
+            <li><Link href="/about-us/teacher-staff">Teacher Staff</Link></li>
+            <li><Link href="/about-us/mandatory-disclosure">Mandatory Disclosure</Link></li>
           </ul>
         )}
         {subMenuOpen === 1 && (

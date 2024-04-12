@@ -1,5 +1,5 @@
 import Image from "next/image"
-import FounderStyle from "./founder.module.css";
+import FounderStyle from "../founder.module.css";
 
 const BannerSection = () => {
     return (
