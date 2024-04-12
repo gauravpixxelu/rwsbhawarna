@@ -1,0 +1,44 @@
+.staff_member {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.member_box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 11px;
+}
+.member_box h6 {
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700    ;
+}
+.tabs_sec {
+    padding: 70px 0;
+}
+.tabs_sec ul li button {
+    background: #f5f5f5;
+    border-radius: 0 !important;
+    padding: 10px 20px;
+    color: var(--heading-color) !important;
+    border: 0 !important;
+    font-weight: 700;
+}
+.tabs_sec .tab_data a {
+    color: var(--secondary-color);
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.tabs_sec ul {
+    margin-bottom: 30px;
+    border: 0;
+    gap: 20px;
+}
+.tabsec_hdng {
+    text-align: center;
+    margin-bottom: 30px;
+}
