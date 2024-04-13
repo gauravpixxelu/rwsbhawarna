@@ -33,7 +33,7 @@ function Header() {
                     <div className="header-btns">
                         <Link href="#" className="custom-btn black-btn"><span>Quick Links</span></Link>
                         <Link href="#" className="custom-btn black-btn"><span>Contact Us</span></Link>
-                        <Link href="#" className="custom-btn black-btn"><span>Download App</span></Link>
+                        <Link href="/download-app" className="custom-btn black-btn"><span>Download App</span></Link>
                     </div>
                     <HamburgerNavbar />
                 </div>
