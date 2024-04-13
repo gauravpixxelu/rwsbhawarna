@@ -174,7 +174,7 @@
 
 @media screen and (max-width:767px) {
     .video_container:before {
-        padding-bottom: 100%;
+        padding-bottom: 50%;
     }
     .belowbanner_sec {
         padding: 20px 0;
@@ -213,5 +213,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
+    }
+    .banner_txt {
+        font-size: 44px;
+        bottom: 0;
     }
 }
