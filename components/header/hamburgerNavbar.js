@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { ArrowRight } from 'react-bootstrap-icons';
+import { ArrowRight, ArrowLeft } from 'react-bootstrap-icons';
 
 const HamburgerNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,36 +14,41 @@ const HamburgerNavbar = () => {
 
   const handleSubMenuClick = (index) => {
     if (activeSubMenu === index) {
-      setActiveSubMenu(null); 
+      setActiveSubMenu(null);
     } else {
-      setActiveSubMenu(index); 
+      setActiveSubMenu(index);
     }
   };
+
+  const handleBackClick = () => {
+    setActiveSubMenu(null);
+  };
+
 
   return (
     <>
       <div className={`menu-bar${isOpen ? ' active' : ''}`}>
         <ul className="open-menu">
           <li>
-            <Link href="#" onClick={() => handleSubMenuClick(0)}>About Us<span>
-              <ArrowRight />
-            </span>
-            </Link>
-          </li>
-          <li> 
-            <Link href="#" onClick={() => handleSubMenuClick(1)}>Admission<span>
+            <Link href="" onClick={() => handleSubMenuClick(0)}>About Us<span>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#" onClick={() => handleSubMenuClick(2)}>Academics<span>
+            <Link href="" onClick={() => handleSubMenuClick(1)}>Admission<span>
               <ArrowRight />
             </span>
             </Link>
           </li>
           <li>
-            <Link href="#" onClick={() => handleSubMenuClick(3)}>Activities<span>
+            <Link href="" onClick={() => handleSubMenuClick(2)}>Academics<span>
+              <ArrowRight />
+            </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="" onClick={() => handleSubMenuClick(3)}>Activities<span>
               <ArrowRight />
             </span>
             </Link>
@@ -73,7 +78,7 @@ const HamburgerNavbar = () => {
           </ul>
         </div>
       </div>
-      
+
 
       <button type="button" className="header-hamburger" onClick={toggleMenu}>
         <span></span>
@@ -82,8 +87,10 @@ const HamburgerNavbar = () => {
       </button>
 
       <div className={`sub-menu-item${activeSubMenu !== null ? ' active' : ''}`}>
-
-        {activeSubMenu  === 0 && (
+        {activeSubMenu !== null && (
+          <>
+            <p onClick={handleBackClick}><ArrowLeft />Back</p>
+        {activeSubMenu === 0 && (
           <ul className="sub-menu">
             <li><Link href="/about-us/overview">Overview</Link></li>
             <li><Link href="/about-us/founder-visionary">Founder & Visionary</Link></li>
@@ -94,19 +101,19 @@ const HamburgerNavbar = () => {
             <li><Link href="/about-us/mandatory-disclosure">Mandatory Disclosure</Link></li>
           </ul>
         )}
-        {activeSubMenu  === 1 && (
+        {activeSubMenu === 1 && (
           <ul className="sub-menu">
-            <li><Link href="#">Admission Process</Link></li>
+            <li><Link href="/admission">Admission Process</Link></li>
             <li><Link href="#">Fee Structure</Link></li>
           </ul>
         )}
-        {activeSubMenu  === 2 && (
+        {activeSubMenu === 2 && (
           <ul className="sub-menu">
             <li><Link href="#">Facilities</Link></li>
             <li><Link href="#">Calender</Link></li>
           </ul>
         )}
-        {activeSubMenu  === 3 && (
+        {activeSubMenu === 3 && (
           <ul className="sub-menu">
             <li><Link href="#">Co-curricular Activities</Link></li>
             <li><Link href="#">Pre-Nur to UKG Activity</Link></li>
@@ -114,7 +121,9 @@ const HamburgerNavbar = () => {
             <li><Link href="#">British Council</Link></li>
             <li><Link href="#">Children Science Congress</Link></li>
             <li><Link href="#">School Houses</Link></li>
-          </ul>
+            </ul>
+            )}
+          </>
         )}
       </div>
     </>

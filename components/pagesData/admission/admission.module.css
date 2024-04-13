@@ -1,0 +1,19 @@
+.document_sec {
+    padding: 70px 0;
+}
+.document_sec ul {
+    padding: 0;
+    margin: 20px 0 0;
+}
+.document_sec ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.document_sec ul li svg {
+    width: 20px;
+    height: auto;
+    color: var(--primary-color);
+}
