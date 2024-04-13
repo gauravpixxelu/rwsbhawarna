@@ -96,23 +96,24 @@ const HamburgerNavbar = () => {
         )}
         {activeSubMenu  === 1 && (
           <ul className="sub-menu">
-            <li><Link href="#">Submenu 2 Item 1</Link></li>
-            <li><Link href="#">Submenu 2 Item 2</Link></li>
-            <li><Link href="#">Submenu 2 Item 3</Link></li>
+            <li><Link href="#">Admission Process</Link></li>
+            <li><Link href="#">Fee Structure</Link></li>
           </ul>
         )}
         {activeSubMenu  === 2 && (
           <ul className="sub-menu">
-            <li><Link href="#">Submenu 3 Item 1</Link></li>
-            <li><Link href="#">Submenu 3 Item 2</Link></li>
-            <li><Link href="#">Submenu 3 Item 3</Link></li>
+            <li><Link href="#">Facilities</Link></li>
+            <li><Link href="#">Calender</Link></li>
           </ul>
         )}
         {activeSubMenu  === 3 && (
           <ul className="sub-menu">
-            <li><Link href="#">Submenu 4 Item 1</Link></li>
-            <li><Link href="#">Submenu 4 Item 2</Link></li>
-            <li><Link href="#">Submenu 4 Item 3</Link></li>
+            <li><Link href="#">Co-curricular Activities</Link></li>
+            <li><Link href="#">Pre-Nur to UKG Activity</Link></li>
+            <li><Link href="#">Student Council</Link></li>
+            <li><Link href="#">British Council</Link></li>
+            <li><Link href="#">Children Science Congress</Link></li>
+            <li><Link href="#">School Houses</Link></li>
           </ul>
         )}
       </div>
