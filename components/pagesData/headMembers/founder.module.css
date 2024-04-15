@@ -13,3 +13,13 @@
 .founder_sec h6 {
     font-weight: 700;
 }
+
+
+@media screen and (max-width:767px) {
+    .founder_sec {
+        padding: 20px 0;
+    }
+    .designation {
+        font-size: 14px;
+    }
+}

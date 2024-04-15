@@ -58,3 +58,30 @@
 .data_sec_five td {
     font-weight: 300;
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .data_sec th:nth-child(1), .data_sec td:nth-child(1) {
+        width: auto;
+    }
+    .data_sec th:nth-child(2), .data_sec td:nth-child(2) {
+        width: auto;
+    }
+    .data_sec th:nth-child(3), .data_sec td:nth-child(3) {
+        width: auto;
+    }
+    .data_sec th, .data_sec td {
+        white-space: nowrap;
+    }
+    .data_sec_five th, .data_sec_five td {
+        white-space: nowrap;
+    }
+}

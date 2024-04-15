@@ -6,7 +6,7 @@ const StaffSection = () => {
         <section className={MandatoryStyle.data_sec}>
             <div className="container">
                 <h6>D: STAFF (TEACHING):</h6>
-                <Table striped bordered hover>
+                <Table striped bordered hover responsive>
                     <thead>
                         <tr>
                             <th>SL NO.</th>
