@@ -1,0 +1,10 @@
+.map_hdng {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.map_sec {
+    padding: 70px 0;
+}
+.map_sec iframe {
+    border-radius: 11px;
+}
