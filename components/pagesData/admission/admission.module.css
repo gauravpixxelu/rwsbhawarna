@@ -17,3 +17,28 @@
     height: auto;
     color: var(--primary-color);
 }
+.ourdream_sec {
+    background: #FBFBFB;
+    padding: 70px 0;
+}
+.ourdream_sec_hdng {
+    max-width: 1000px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.ourdream_boxes {
+    background: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+.ourdream_boxes img {
+    margin-bottom: 15px;
+}
+.ourdream_boxes h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.ourdream_boxes p {
+    font-size: 16px;
+}

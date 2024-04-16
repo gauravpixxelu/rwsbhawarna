@@ -57,7 +57,7 @@ const HamburgerNavbar = () => {
             <Link href="/">Galleries</Link>
           </li>
           <li>
-            <Link href="/">Press Releases</Link>
+            <Link href="/press-review">Press Releases</Link>
           </li>
         </ul>
 
@@ -103,7 +103,7 @@ const HamburgerNavbar = () => {
         )}
         {activeSubMenu === 1 && (
           <ul className="sub-menu">
-            <li><Link href="/admission">Admission Process</Link></li>
+            <li><Link href="/admission/admission-process">Admission Process</Link></li>
             <li><Link href="#">Fee Structure</Link></li>
           </ul>
         )}

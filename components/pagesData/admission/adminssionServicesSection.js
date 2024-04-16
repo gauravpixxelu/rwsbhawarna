@@ -44,7 +44,7 @@ const AdminssionServicesSection = () => {
                     </div>
                     <div className={`${AdmissionStyle.row} row`}>
                         {services.map((services) => (
-                            <div className="col-md-3" key={services.id}>
+                            <div className="col" key={services.id}>
                                 <div className={AdmissionStyle.ourdream_boxes}> 
                                     <Image
                                         src={services.image}
