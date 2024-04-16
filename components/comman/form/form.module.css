@@ -1,0 +1,39 @@
+.form_feild input {
+    width: 100%;
+    border-radius: 5px;
+    background: #FAFAFA;
+    height: 55px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    outline: 0;
+    font-size: 14px;
+    color: #000
+}
+.form_feild input::placeholder {
+    color: #828282;
+    font-size: 14px;
+}
+.form_feild textarea {
+    width: 100%;
+    border-radius: 5px;
+    background: #FAFAFA;
+    height: 120px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    outline: 0;
+    font-size: 14px;
+    color: #000
+}
+.form_feild textarea::placeholder {
+    color: #828282;
+    font-size: 14px;
+}
+.form_feild {
+    margin-bottom: 20px;
+}
+.form_feild label {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 5px;
+}

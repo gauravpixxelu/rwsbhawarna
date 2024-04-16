@@ -8,3 +8,56 @@
 .map_sec iframe {
     border-radius: 11px;
 }
+.contactdata_sec {
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(50, 50, 71, 0.08);
+    padding: 30px;
+    margin-top: 30px;
+}
+.form_block {
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(50, 50, 71, 0.08);
+    padding: 30px;
+}
+.details_box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 11px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.details_box:nth-child(1) {    
+    background: #FFF8DD;
+}
+.details_box:nth-child(2) {    
+    background: #FFF1F0;
+}
+.details_box:nth-child(3) {    
+    background: #E7FFE5;
+    margin-bottom: 0;
+}
+.image_cnt {
+    border-radius: 11px;
+    box-shadow: 0px 8px 8px 0px rgba(50, 50, 71, 0.08);
+}
+.details_box img {
+    max-width: 75px !important;
+}
+.details_box_data h5 {
+    font-size: 20px;
+}
+.details_box_data p {
+    margin: 0;
+}
+.contact_sec {
+    background: #FBFBFB;
+    padding: 70px 0;
+}
+.form_block .form_sec {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 45px;
+    margin-top: 45px; 
+}
