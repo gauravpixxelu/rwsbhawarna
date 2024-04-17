@@ -2,6 +2,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ChevronRight, ChevronLeft } from 'react-bootstrap-icons';
 import PressSldierStyle from './pressslider.module.css';
 
 const press = [
@@ -34,13 +35,14 @@ const press = [
 const PressSlider = () => {
 
     var settings = {
-        dots: true,
+        dots: false,
         arrows: true,
         infinite: true,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 0,
+        nextArrow: <ChevronRight />,
+        prevArrow: <ChevronLeft />,
         responsive: [
             {
               breakpoint: 1024,
