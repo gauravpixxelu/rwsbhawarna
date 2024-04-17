@@ -109,8 +109,8 @@ const HamburgerNavbar = () => {
         )}
         {activeSubMenu === 2 && (
           <ul className="sub-menu">
-            <li><Link href="#">Facilities</Link></li>
-            <li><Link href="#">Calender</Link></li>
+            <li><Link href="/academics/facilities">Facilities</Link></li>
+            <li><Link href="/academics/calender">Calender</Link></li>
           </ul>
         )}
         {activeSubMenu === 3 && (
