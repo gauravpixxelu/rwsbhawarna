@@ -14,13 +14,16 @@
 :root {
     --primary-font: 'Axiforma';
     --secondary-font: 'RecifeDisplay';
-    --primary-color: #FFDF00;
-    --secondary-color: #155B2E;
+    --background-color: linear-gradient(89.5deg, #FE8801 28.91%, #E93800 67.67%);
+    --primary-color: #003E67;
+    --secondary-color: #003E67;
     --heading-color: #202020;
     --text-color: #343434;
     --white-color: #fff;
     --black-color: #000;
     --footer-text-color: #848484;
+    --button-content-color: #EA3901;
+    --inner-background: #FEF5F0;
 }
 html, body {
     margin: 0;
@@ -94,11 +97,12 @@ a {
     overflow: hidden;
 }
 .custom-btn.black-btn {
-    color: var(--black-color);
-    border: 1px solid var(--black-color);
+    border: 0px solid var(--white-color);
+    background: var(--white-color);
+    color: var(--button-content-color);
 }
 .custom-btn.black-btn:after {
-    background-color: var(--black-color);
+    background-color: var(--secondary-color);
 }
 .custom-btn:hover {
     color: var(--white-color);
@@ -117,20 +121,26 @@ a {
     position: relative;
     z-index: 9;
     padding: 0;
-    border: 1px solid #000;
+    border: 0px solid var(--white-color);
     border-radius: 7px;
     height: 50px;
     width: 50px;
     padding: 0 9px;
+    background-color: var(--white-color);
+}
+.header-box a img {
+    width: 100%;
 }
 .header-hamburger span {
-    background: #333;
+    background: var(--button-content-color);
     display: block;
-    height: 2px;
-    margin: 7px auto;
+    margin: 5px auto;
     transition: all 0.3s ease-in-out;
     width: 30px;
+    height: 3px;
+    border-radius: 60px !important;
 }
+
 .header-box {
     display: flex;
     align-items: center;
@@ -141,7 +151,7 @@ a {
 }
 .menu-bar {
     position: fixed;
-    background: var(--primary-color);
+    background: linear-gradient(184.5deg, #FE8801 60.91%, #E93800 102.67%);
     height: 100vh;
     width: 430px;
     top: 100px;
@@ -199,9 +209,10 @@ a {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
+    color: var(--white-color);
 }
 .website-header {
-    background: var(--primary-color);
+    background: var(--background-color);
     padding: 0 50px;
     box-shadow: 0 12px 24px 0 rgb(0 0 0 / 10%);
 }
@@ -229,9 +240,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--white-color);
 }
 .menu-bar ul.open-menu li a:hover {
     background: var(--white-color);
+    color: var(--primary-color);
 }
 .sub-menu-item ul.sub-menu {
     padding: 0;
@@ -249,6 +262,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--primary-color);
 }
 /* .menu-bar ul.open-menu li a span {
     display: block;
@@ -305,7 +319,8 @@ a {
 
 /* -- Tab Active Css -- */
 button.nav-link.active {
-    background: var(--primary-color) !important;
+    background: linear-gradient(89.5deg, #FE8801 28.91%, #E93800 67.67%);
+    color: var(--white-color) !important;
 }
 
 
@@ -336,7 +351,15 @@ button.nav-link.active {
     border: 1px solid var(--primary-color) !important;
 }
 .slick-track .slick-slide > div {
-    margin: 0 10px !important;
+    margin: 0 10px ;
+}
+.banner-slider .slick-track .slick-slide > div {
+    margin: 0;
+    display: flex;
+}
+.banner-slider .slick-track .slick-slide div img {
+    height: 83vh !important;
+    object-fit: cover;
 }
 .slick-slider svg.slick-arrow {
     color: #000 !important;
@@ -348,8 +371,9 @@ button.nav-link.active {
     border-radius: 100%;
 }
 .slick-slider svg.slick-arrow:hover {
-    background: #ffdf00 !important;
-    border-color: #ffdf00 !important;
+    background: var(--secondary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
 }
 .slick-slider svg.slick-arrow.slick-prev {
     left: -80px;
@@ -359,7 +383,10 @@ button.nav-link.active {
 }
 
 
-
+/* Example custom animation for slide transition */
+.slick-slide {
+    transition: transform 0.5s ease-in-out; /* Customize the transition animation */
+  }
 
 
 

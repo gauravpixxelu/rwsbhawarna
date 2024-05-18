@@ -16,21 +16,49 @@ const activity = [
     {
         id: 2,
         image: '/images/homepage/fit-india.jpg',
-        title: 'Fit India School',
+        title: 'British Council',
         text: 'Rainbow World School has been accredited with the International School Award (ISA) by British Council. The award provides a platform to students to produce a valuable framework …',
     },
     {
         id: 3,
         image: '/images/homepage/fit-india.jpg',
-        title: 'Fit India School',
-        text: 'Rainbow World School has been accredited with the International School Award (ISA) by British Council. The award provides a platform to students to produce a valuable framework …',
+        title: 'Scouts and Guides',
+        text: 'This is the National scouting and guiding association of India which is having around 3687127 scouts and 2008549 guides across the country. Rainbow world school..',
     },
     {
         id: 4,
         image: '/images/homepage/fit-india.jpg',
-        title: 'Fit India School',
-        text: 'Rainbow World School has been accredited with the International School Award (ISA) by British Council. The award provides a platform to students to produce a valuable framework …',
-    }
+        title: 'Art Room',
+        text: 'The Splashes of Color Reverberate with the Diversity of HumanEmotion in the Art Room at the Junior Level. Individual styles and techniques get honed ….',
+    },
+    {
+        id: 5,
+        image: '/images/homepage/fit-india.jpg',
+        title: 'Music and Dance Room',
+        text: 'Our music and dance room is fully equipped with instruments like drums, harmonium, tabla, keyboard and many more. Students can learn the instruments of their choice and perform …',
+    },
+    {
+        id: 6,
+        image: '/images/homepage/fit-india.jpg',
+        title: 'Sports Facilities',
+        text: 'The Rainbow World School provides indoor and outdoor sports facilities to the students. Along with vast play field the school has Table Tennis hall, Gymnastic..',
+    },
+    {
+        id: 7,
+        image: '/images/homepage/fit-india.jpg',
+        title: 'Smart Class Rooms',
+        text: 'The School has well furnished, spacious and well ventilated class rooms with white boards, lecture platforms and proper lighting system to meet today’s …',
+    },
+    {
+        id: 8,
+        image: '/images/homepage/fit-india.jpg',
+        title: 'NCC',
+        text: 'In Rainbow World School Bhawarna , NCC came into existence in the year 2017. In the beginning it was a troop comprising of 25 cadets. In the year 2018, more 25 cadets .…',
+    },
+
+
+
+
 ];
 
 const ActivitySlider = () => {

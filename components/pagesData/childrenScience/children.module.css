@@ -1,0 +1,25 @@
+
+.innerchildrenhood {
+    padding: 10px 0;
+    background-color: #FEF3F0;
+}
+.innerchildrenhood .scrollingText {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.innerchildrenhood .textmarque {
+    display: inline-block;
+    animation: marquee 50s linear infinite; 
+    margin: 0;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(50%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+.childrens_slider {
+    padding: 60px 0;
+}
