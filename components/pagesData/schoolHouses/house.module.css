@@ -1,0 +1,65 @@
+.schoolhouse {
+    padding: 50px 0;
+}
+.schoolhousetitle h3 {
+    text-align: center;
+}
+.flowhouse {
+    padding: 0 10px;
+}
+.flowhouse span{
+   border-bottom: 1px solid #EA3901;
+   padding: 10px 0px;
+   color: #000;
+   font-weight: 600;
+   font-size: 16px;
+
+}
+.schoolhousedes {
+    max-width: 80%;
+    margin: 30px auto 0;
+}
+.schoolhousedes p {
+    text-align: center;
+}
+.mission_boxes img {
+    width: 100%;
+    height: 230px;
+    padding: 10px;
+    object-fit: cover;
+}
+.mission_boxes {
+    width: 300px;
+    height: 275px;
+    background-color: #FEF3F0;
+    border-radius: 10px;
+}
+
+.studentholding {
+    padding: 60px 0;
+    background-color: #FEF3F0;
+}
+
+.inlinesection {
+    align-items: center !important;
+}
+.teachermanners img {
+    border-radius: 10px;
+}
+
+
+.dottedborder h3 {
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.dottedborder h3:after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(89.5deg, #FE8801 28.91%, #E93800 67.67%);
+    width: 48%;
+    height: 7px;
+    top: 112px;
+    left: 0;
+    border-radius: 31px;
+}

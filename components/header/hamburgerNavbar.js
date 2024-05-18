@@ -54,7 +54,7 @@ const HamburgerNavbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">Galleries</Link>
+            <Link href="/galleries">Galleries</Link>
           </li>
           <li>
             <Link href="/press-review">Press Releases</Link>
@@ -120,7 +120,7 @@ const HamburgerNavbar = () => {
             <li><Link href="#">Student Council</Link></li>
             <li><Link href="#">British Council</Link></li>
             <li><Link href="#">Children Science Congress</Link></li>
-            <li><Link href="#">School Houses</Link></li>
+            <li><Link href="/activities/school-house">School Houses</Link></li>
             </ul>
             )}
           </>

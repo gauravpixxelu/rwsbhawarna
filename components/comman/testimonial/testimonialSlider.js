@@ -6,30 +6,26 @@ import TestimonialStyle from './testimonial.module.css';
 import { ChevronRight, ChevronLeft, Quote } from 'react-bootstrap-icons';
 
 const testimonaialContent = [
+   
     {
         id: 1,
-        name: 'Aadhya Chaturvedi',
-        review: 'In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout. I would always be very grateful for the lifelong connections I made. In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.',
+        name: 'Anjana',
+        review: 'At Rainbow World School , dreams take flight  where curiosity shines like stars at night, with dedicated teachers and a caring crew, their school community becomes strong and true.',
         rating: '/images/homepage/rating.svg',
     },
     {
         id: 2,
-        name: 'Aadhya Chaturvedi',
-        review: 'In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout. I would always be very grateful for the lifelong connections I made. In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.',
+        name: 'Meenakshi',
+        review: 'RAINBOW SCHOOL is doing excellent in all the fields especially giving a lot of exposure to my child. Good efforts by all teachers. I am very thankful to all teachers and staff for its endless efforts. Very happy with the kind of activities organised in the school in all spheres. I feel that my decision was right in sending ANAISHA BHARDWAJ Class Nursery Lotus to this school . I wish a great success to RAINBOW WORLD SCHOOL',
         rating: '/images/homepage/rating.svg',
     },
     {
         id: 3,
-        name: 'Aadhya Chaturvedi',
-        review: 'In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout. I would always be very grateful for the lifelong connections I made. In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.',
+        name: 'Harbans Lal',
+        review: 'It is a privilege to share my views of how pleased I am with the standard of Education being imparted in Rainbow World School, Bhawarna. The curriculum,the diversified teaching methods ,proper set of  extra curricular activities, as well as the disciplined structure of teaching is so impressive and unbeatable. Thanks to the whole team for providing quality education to my ward, providing all means for the overall development of my ward. You proved "Learning is a Treasure".',
         rating: '/images/homepage/rating.svg',
     },
-    {
-        id: 4,
-        name: 'Aadhya Chaturvedi',
-        review: 'In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout. I would always be very grateful for the lifelong connections I made. In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.',
-        rating: '/images/homepage/rating.svg',
-    }
+    
 ];
 
 const TestimonialSlider = () => {

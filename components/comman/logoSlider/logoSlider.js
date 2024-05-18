@@ -41,12 +41,10 @@ const LogoSlider = () => {
         dots: false,
         arrows: false,
         infinite: true,
-        speed: 5000,
+        speed: 1000,
         cssEase: 'linear',
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0,
         responsive: [
             {
               breakpoint: 1024,
