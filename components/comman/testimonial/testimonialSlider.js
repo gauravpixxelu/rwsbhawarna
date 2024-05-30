@@ -25,6 +25,12 @@ const testimonaialContent = [
         review: 'It is a privilege to share my views of how pleased I am with the standard of Education being imparted in Rainbow World School, Bhawarna. The curriculum,the diversified teaching methods ,proper set of  extra curricular activities, as well as the disciplined structure of teaching is so impressive and unbeatable. Thanks to the whole team for providing quality education to my ward, providing all means for the overall development of my ward. You proved "Learning is a Treasure".',
         rating: '/images/homepage/rating.svg',
     },
+    {
+        id: 4,
+        name: 'Swarna Patial',
+        review: 'Rainbow World School is showing excellence in all the fields especially in giving a lot of exposure to the children in a nicely planned and organized Academic Programs .Good efforts are being put by all the teachers . I am very grateful to all the Teachers , Coordinators and the Principal .My children are grooming very well.I feel that my decision was right in choosing  Rainbow World School for my children. Keep it up ! I wish a great success  to Rainbow World School .',
+        rating: '/images/homepage/rating.svg',
+    },
     
 ];
 

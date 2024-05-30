@@ -23,3 +23,47 @@
 .childrens_slider {
     padding: 60px 0;
 }
+.top_slider_content ul {
+    padding: 0;
+}
+.top_slider_content ul li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.top_slider_content ul li span {
+    background: linear-gradient(89.5deg, #FE8801 28.91%, #E93800 67.67%);
+    min-width: 25px !important;
+    height: 25px !important;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+.top_slider_content h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.slide_fade img {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.childrens_card {
+    background: #FEF3F0;
+    padding: 50px 0;
+}
+.images_card img {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
