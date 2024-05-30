@@ -5,20 +5,51 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import Image from 'next/image'
+
 const ChildrenScienceSlider = () => {
     // Settings for the slider
     const sliderSettings = {
-        dots: true,
+        dots: false,
+        arrows: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        autoplayInterval: 4000,
         slidesToScroll: 1
     };
 
     return (
         <section className={ChildrenStyle.childrens_slider}>
             <div className='container'>
-                <div className='row'>
+                <div className='row congress-view'>
+                    <div className='col-md-6'>
+                        <div className={ChildrenStyle.slider_science}>
+                            {/* Slider Component */}
+                            <Slider {...sliderSettings}>
+                                <div className={ChildrenStyle.slide_fade}>
+                                    <Image
+                                        src="/images/children-science/hood-1.jpg"
+                                        alt="Logos"
+                                        width={800}
+                                        height={800}
+                                        style={{ width: '100%', height: 'auto' }}
+                                    />
+                                </div>
+                                <div className={ChildrenStyle.slide_fade}>
+                                    <Image
+                                        src="/images/children-science/hood-2.jpg"
+                                        alt="Logos"
+                                        width={800}
+                                        height={800}
+                                        style={{ width: '100%', height: 'auto' }}
+                                    />
+                                </div>
+
+                            </Slider>
+                        </div>
+                    </div>
                     <div className='col-md-6'>
                         <div className={ChildrenStyle.top_slider_content}>
                             <h3>Children Science Congress (2023-24)</h3>
@@ -30,22 +61,7 @@ const ChildrenScienceSlider = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='col-md-6'>
-                        <div className={ChildrenStyle.slider_science}>
-                            {/* Slider Component */}
-                            <Slider {...sliderSettings}>
-                                <div>
-                                    Slide 1
-                                </div>
-                                <div>
-                                    Slide 2
-                                </div>
-                                <div>
-                                    Slide 3
-                                </div>
-                            </Slider>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>

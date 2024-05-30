@@ -388,7 +388,9 @@ button.nav-link.active {
     transition: transform 0.5s ease-in-out; /* Customize the transition animation */
   }
 
-
+  .row.congress-view {
+    align-items: center;
+}
 
 
 @media screen and (max-width:767px) {
