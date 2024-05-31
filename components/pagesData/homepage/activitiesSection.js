@@ -13,6 +13,7 @@ const ActivitiesSection = () => {
                 </div>
             </section>
         </>
+        
     )
 }
 
