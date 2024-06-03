@@ -18,7 +18,7 @@ function Footer() {
                             <div className="social-icons">
                                 <ul>
                                     <li><Link href="https://www.facebook.com/rainbowworldbhawarna?mibextid=ZbWKwL" target="_blank"><Image src="/images/facebook.svg" alt="Logo" width={26} height={26} /></Link></li>
-                                    <li><Link href="#" target="_blank"><Image src="/images/instagram.svg" alt="Logo" width={26} height={26} /></Link></li>
+                                    <li><Link href="https://www.instagram.com/rainbowworld_himachal/?igsh=cnV1czV5OWhwcDl6" target="_blank"><Image src="/images/instagram.svg" alt="Logo" width={26} height={26} /></Link></li>
                                     <li><Link href="#" target="_blank"><Image src="/images/twitter.svg" alt="Logo" width={26} height={26} /></Link></li>
                                     <li><Link href="#" target="_blank"><Image src="/images/youtube.svg" alt="Logo" width={26} height={26} /></Link></li>
                                 </ul>
