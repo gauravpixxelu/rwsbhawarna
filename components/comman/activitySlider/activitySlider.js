@@ -10,7 +10,7 @@ const activity = [
     {
         id: 1,
         image: '/images/activity/img1.jpg',
-        title: 'Anveshika Lal',
+        title: 'Anveshika Lab',
         text: 'Rainbow World School has been accredited with the International School Award (ISA) by British Council. The award provides a platform to students to produce a valuable framework …',
     },
     {
