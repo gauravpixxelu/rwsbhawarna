@@ -79,7 +79,7 @@ const HamburgerNavbar = () => {
           <ul>
             <li><Link href="#" target="_blank"><Image src="/images/icon1.svg" alt="Logo" width={40} height={40} /></Link></li>
             <li><Link href="#" target="_blank"><Image src="/images/icon2.svg" alt="Logo" width={40} height={40} /></Link></li>
-            <li><Link href="#" target="_blank"><Image src="/images/icon3.svg" alt="Logo" width={40} height={40} /></Link></li>
+            <li><Link href="https://www.instagram.com/rainbowworld_himachal/?igsh=cnV1czV5OWhwcDl6" target="_blank"><Image src="/images/icon3.svg" alt="Logo" width={40} height={40} /></Link></li>
             <li><Link href="https://www.facebook.com/rainbowworldbhawarna?mibextid=ZbWKwL" target="_blank"><Image src="/images/icon4.svg" alt="Logo" width={40} height={40} /></Link></li>
           </ul>
         </div>
@@ -116,14 +116,14 @@ const HamburgerNavbar = () => {
 
         {activeSubMenu === 4 && (
           <ul className="sub-menu">
-            <li><Link href="/admission/admission-process">Mandatory Disclosure</Link></li>
-            <li><Link href="#">Teacher Staff</Link></li>
+            <li><Link href="/cbse/mandatory-disclosure">Mandatory Disclosure</Link></li>
+            <li><Link href="/cbse/teacher-staff">Teaching Staff</Link></li>
           </ul>
         )}
 
 
 
-        {activeSubMenu === 9 && (
+        {/* {activeSubMenu === 9 && (
           <ul className="sub-menu left-code">
             <li><Link href="/admission/admission-process">Tech-integrated Classrooms</Link></li>
             <li><Link href="#">Information Hub</Link></li>
@@ -136,13 +136,14 @@ const HamburgerNavbar = () => {
             <li><Link href="#">Art and Craft</Link></li>
             <li><Link href="#">Well equiped Science lab</Link></li>
           </ul>
-        )}
+        )} */}
 
 
         {activeSubMenu === 2 && (
           <ul className="sub-menu craft-code">
-            <li><Link href="#" onClick={() => handleSubMenuClick(9)}>Facilities<span className="icon-admission"><ArrowRight /></span></Link></li>
+            <li><Link href="/academics/facilities">Facilities</Link></li>
             <li><Link href="/academics/calender">School Calender</Link></li>
+            <li><Link href="#">Results</Link></li>
           </ul>
         )}
         {activeSubMenu === 3 && (
@@ -151,7 +152,7 @@ const HamburgerNavbar = () => {
             {/* <li><Link href="#">Pre-Nur to UKG Activity</Link></li> */}
             <li><Link href="#">Student Council</Link></li>
             {/* <li><Link href="#">British Council</Link></li> */}
-            {/* <li><Link href="#">Children Science Congress</Link></li> */}
+            <li><Link href="#">Children Science Congress</Link></li>
             <li><Link href="/activities/school-house">School Houses</Link></li>
             </ul>
             )}

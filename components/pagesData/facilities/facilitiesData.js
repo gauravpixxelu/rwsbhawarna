@@ -17,26 +17,26 @@ const facilityContent = [
     {
         id: 3,
         title: 'International Dimensions In Education',
-        content: `<b>British Council –</b> Our school offers international exposure in learning through collaboration with the British Council. 
-                  <b>German Language -</b> The school’s partnership with German Embassy provides our students learning of German language exclusively  and provides International Exposure. 
-                  <b>Cambridge –</b> Our school proudly offers the globally recognized Cambridge curriculum, equipping students for success in a globalized world and beyond.`,
+        content: `British Council – Our school offers international exposure in learning through collaboration with the British Council. 
+                  German Language - The school’s partnership with German Embassy provides our students learning of German language exclusively  and provides International Exposure. 
+                  Cambridge – Our school proudly offers the globally recognized Cambridge curriculum, equipping students for success in a globalized world and beyond.`,
         image: '/images/overview/dummy-img.jpg',
     },
     {
         id: 4,
-        title: 'Smart Class Rooms',
+        title: 'Tech-integrated Classrooms',
         content: 'The School has well furnished, spacious and well ventilated class rooms with smart boards, lecture platforms and proper lighting system to meet today’s requirements. Interactive white boards are used for classroom teaching and involve students to learn with technology. Notes, flowcharts, drawings and PPTs used in the course of teaching are saved to be accessed as and when required. Students are actively involved in their learning through presentations made by them using the whiteboards.',
         image: '/images/overview/dummy-img.jpg',
     },
     {
         id: 5,
-        title: 'Library',
+        title: 'Information Hub',
         content: 'The serene ambience inspires a love for reading. Information at the click of a finger tip invites the young users to delve into the magical world of words and the wealth of research material available. The School library is spacious and well maintained. It is filled with racks and almirahs Containing more than 3000 books of different titles and subjects including students’ text books, reference books for teachers, periodicals and news papers.',
         image: '/images/overview/dummy-img.jpg',
     },
     {
         id: 6,
-        title: 'Computer Lab',
+        title: 'Digital lab',
         content: 'In the age of Artificial Intelligence (AI), developing digital learning skills is essential. Our school provides well-equipped, user-friendly computer labs loaded with the latest digital services. Here, we train children to leverage AI in their everyday lives.',
         image: '/images/overview/dummy-img.jpg',
     },
@@ -86,6 +86,49 @@ const facilityContent = [
         id: 14,
         title: 'Transport Facilities',
         content: 'The School provides transport facilities in shape of school buses for students residing beyond the walking distance from the school, so that they attend the school in time. The school owns a fleet of buses with highly trained drivers & helpers. All the buses have got a teacher on duty. In case of his/her absence a supervisor/ helper is provided for the safety of the children. Each child wears an I-Card which gives his details.',
+        image: '/images/overview/dummy-img.jpg',
+    },
+
+    {
+        id: 15,
+        title: 'Music and Dance room',
+        content: '',
+        image: '/images/overview/dummy-img.jpg',
+    },
+    {
+        id: 16,
+        title: 'Co-Curricular Activities',
+        content: '',
+        image: '/images/overview/dummy-img.jpg',
+    },
+    {
+        id: 17,
+        title: 'Sports',
+        content: '',
+        image: '/images/overview/dummy-img.jpg',
+    },
+    {
+        id: 18,
+        title: 'Summer Camp',
+        content: '',
+        image: '/images/overview/dummy-img.jpg',
+    },
+    {
+        id: 19,
+        title: 'Trip and Tours',
+        content: '',
+        image: '/images/overview/dummy-img.jpg',
+    },
+    {
+        id: 20,
+        title: 'Art and Craft',
+        content: '',
+        image: '/images/overview/dummy-img.jpg',
+    },
+    {
+        id: 21,
+        title: 'Well equiped Science lab',
+        content: '',
         image: '/images/overview/dummy-img.jpg',
     },
 ];

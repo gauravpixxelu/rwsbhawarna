@@ -23,19 +23,19 @@ const StaffTabSection = () => {
                     <h2><span>Teaching</span> Staff</h2>
                 </div>
                 <Tabs id="staff-tabs" activeKey={activeTab} onSelect={handleTabSelect}>
-                    <Tab eventKey="PGT" title="PGT">
+                    <Tab eventKey="PGT" title="Teaching Staff (PGT)">
                         <div className={TeacherStyle.tabContent}>
                             {activeTab === 'PGT' && <PGT />}
                         </div>
                     </Tab>
 
-                    <Tab eventKey="TGT" title="TGT">
+                    <Tab eventKey="TGT" title="Teaching Staff (TGT)">
                         <div className={TeacherStyle.tabContent}>
                             {activeTab === 'TGT' && <TGT />}
                         </div>
                     </Tab>
 
-                    <Tab eventKey="PRT" title="PRT">
+                    <Tab eventKey="PRT" title="Teaching Staff (PRT)">
                         <div className={TeacherStyle.tabContent}>
                             {activeTab === 'PRT' && <PRT />}
                         </div>
