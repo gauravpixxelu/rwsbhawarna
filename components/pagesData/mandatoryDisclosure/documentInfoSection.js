@@ -24,37 +24,37 @@ const DocumentInfoSection = () => {
                         <tr>
                             <td>2</td>
                             <td>COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/list-of-society-members/</Link></td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/essential/</Link></td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND IT’S RENEWAL IF APPLICABLE</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/recognition/</Link></td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/safety-building-certificate/</Link></td>
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT AUTHORITY</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/fire-certificate/</Link></td>
                         </tr>
                         <tr>
                             <td>7</td>
                             <td>COPY OF THE DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATIONOR SELF CERTIFICATION BY SCHOOL</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/salary-certificate/</Link></td>
                         </tr>
                         <tr>
                             <td>8</td>
                             <td>COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/safe-drinking/</Link></td>
                         </tr>
                     </tbody>
                 </Table>
