@@ -143,7 +143,7 @@ const HamburgerNavbar = () => {
           <ul className="sub-menu craft-code">
             <li><Link href="/academics/facilities">Facilities</Link></li>
             <li><Link href="/academics/calender">School Calender</Link></li>
-            <li><Link href="#">Results</Link></li>
+            <li><Link href="/academics/results">Results</Link></li>
           </ul>
         )}
         {activeSubMenu === 3 && (

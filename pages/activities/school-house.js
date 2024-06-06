@@ -9,7 +9,7 @@ function SchoolHouse() {
             <Header />
             <SchoolHousebanner />
             <SchoolHouseSec />
-            <SchoolManners/>
+            {/* <SchoolManners/> */}
             <Footer />
         </>
     )
