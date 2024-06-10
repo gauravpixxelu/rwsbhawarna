@@ -41,9 +41,7 @@
 .colum_result_one span {
     font-size: 24px;
     text-align: center;
-    background: linear-gradient(89.5deg, #FE8801 28.91%, #E93800 67.67%);
- 
-    -webkit-text-fill-color: transparent;
+    color: #E93800 ;
     width: 100%;
     display: block;
 }
@@ -81,3 +79,4 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+

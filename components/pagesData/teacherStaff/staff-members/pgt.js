@@ -4,44 +4,34 @@ import TeacherStyle from "../teacher.module.css";
 const pgtimages = [
     {
         id: 1,
-        image: '/images/homepage/tab-img4.jpg',
-        name: 'Mr. Sandeep Kumar',
+        image: '/images/teacherstaff/pgt/REETA.jpg',
+        name: 'Ms. REETA KUMARI',
     },
     {
         id: 2,
-        image: '/images/homepage/tab-img4.jpg',
-        name: 'Ms. Radhika Sood',
+        image: '/images/teacherstaff/pgt/RINI.jpg',
+        name: 'Ms. RINI SARIKA CHAND',
     },
     {
         id: 3,
-        image: '/images/homepage/tab-img4.jpg',
-        name: 'Ms. Ritu Sharma',
+        image: '/images/teacherstaff/pgt/RITU.jpg',
+        name: 'Ms. RITU SHARMA',
     },
     {
         id: 4,
-        image: '/images/homepage/tab-img4.jpg',
-        name: 'Ms. Rini Sarika Chand',
-    },
-    {
-        id: 5,
-        image: '/images/homepage/tab-img4.jpg',
+        image: '/images/teacherstaff/pgt/Shilpa.jpg',
         name: 'Ms. Shilpa Dogar',
     },
     {
-        id: 6,
-        image: '/images/homepage/tab-img4.jpg',
+        id: 5,
+        image: '/images/teacherstaff/pgt/Samita.jpg',
         name: 'Ms. Samita Rana',
     },
     {
-        id: 7,
-        image: '/images/homepage/tab-img4.jpg',
-        name: 'Mr. Arun Kumar',
+        id: 6,
+        image: '/images/teacherstaff/pgt/SANDEEP.jpg',
+        name: 'Mr. SANDEEP',
     },
-    {
-        id: 8,
-        image: '/images/homepage/tab-img4.jpg',
-        name: 'Ms. Reeta',
-    }
 ];
 
 const PGT = () => {

@@ -4,7 +4,7 @@ import TeacherStyle from "../teacher.module.css";
 const germanimages = [
     {
         id: 1,
-        image: '/images/homepage/tab-img4.jpg',
+        image: '/images/teacherstaff/german/Tanmay.jpg',
         name: 'Mr. Tanmay',
     }
 ];

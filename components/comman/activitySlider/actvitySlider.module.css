@@ -1,10 +1,14 @@
 .activity_box {
     background: #F9F9F9;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     outline: 0;
+    height: 565px;
 }
 .activity_box img {
     border-radius: 8px;
     margin-bottom: 20px;
+}
+.activity_box p {
+    font-size: 14px;
 }
