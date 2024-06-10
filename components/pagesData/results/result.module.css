@@ -42,7 +42,7 @@
     font-size: 24px;
     text-align: center;
     background: linear-gradient(89.5deg, #FE8801 28.91%, #E93800 67.67%);
-    -webkit-background-clip: text;
+ 
     -webkit-text-fill-color: transparent;
     width: 100%;
     display: block;
@@ -70,4 +70,14 @@
 
 .heading_core_system {
     padding: 80px 0;
+}
+
+.pdf_configration embed {
+    width: 100%;
+    height: 800px;
+}
+
+.pdf_configration {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
