@@ -1,11 +1,8 @@
-import React from 'react';
-import Image from 'next/image'
+import React, { useState, useRef, useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import HomeCss from './home.module.css';
-
-
 
 const VideoSlider = () => {
   const settings = {
@@ -16,51 +13,70 @@ const VideoSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000, 
-    cssEase: 'ease-in-out', 
+    autoplaySpeed: 3000,
+    cssEase: 'ease-in-out',
   };
-  
+
+  const [isMuted, setIsMuted] = useState(true);
+  const [videoError, setVideoError] = useState(false);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.muted = isMuted;
+    }
+  }, [isMuted]);
+
+  const handleMuteToggle = () => {
+    if (videoRef.current) {
+      setIsMuted(!isMuted);
+    }
+  };
+
+  const handleVideoError = () => {
+    setVideoError(true);
+  };
 
   return (
-    <section className={`${HomeCss.banner_sec} banner-slider`}>
-      <div className={HomeCss.video_container}>
-        <Slider {...settings}>
-          <div>
-            <div className={HomeCss.imagesbanner}>
-              <Image
-                src="/images/overview/dummy-img.jpg"
-                alt="Logos"
-                width={800}
-                height={800}
-                style={{ width: '100%', height: 'auto' }}
-              />
+    <section className={`${HomeCss.banner_sec} banner-slider`} style={{ overflow: 'hidden', height: '730px', position: 'relative', }}>
+      <div className={HomeCss.video_container} style={{ position: 'relative', overflow: 'hidden', height: '100%' }}>
+        <div style={{ position: 'relative', top: '-130px',  }}>
+          {!videoError ? (
+            <video
+              ref={videoRef}
+              style={{ width: '100%', height: '730', objectFit: 'cover' }}
+              autoPlay
+              loop
+              muted={isMuted}
+              onError={handleVideoError}
+            >
+              <source src="video/banner-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          ) : (
+            <div style={{ color: 'white', textAlign: 'center', paddingTop: '20px' }}>
+              Failed to load video.
             </div>
-          </div>
-          <div>
-            <div className={HomeCss.imagesbanner}>
-              <Image
-                src="/images/overview/dummy-img.jpg"
-                alt="Logos"
-                width={800}
-                height={800}
-                style={{ width: '100%', height: 'auto' }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className={HomeCss.imagesbanner}>
-              <Image
-                src="/images/overview/dummy-img.jpg"
-                alt="Logos"
-                width={800}
-                height={800}
-                style={{ width: '100%', height: 'auto' }}
-              />
-            </div>
-          </div>
-        </Slider>
-        <h2 className={HomeCss.banner_txt}>Rainbow World School</h2>
+          )}
+          <button
+            onClick={handleMuteToggle}
+            style={{
+              position: 'relative',
+              bottom: '300px',
+              left: '10px',
+              padding: '10px',
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+            }}
+          >
+            {isMuted ? 'Unmute' : 'Mute'}
+          </button>
+        </div>
       </div>
+      <h2 className={HomeCss.banner_txt}>Rainbow World School</h2>
     </section>
   );
 };
