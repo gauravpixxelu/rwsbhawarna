@@ -495,3 +495,25 @@ button.nav-link.active {
         right: -50px;
     }
 }
+
+
+
+.view-press-gallery img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 22px 19px #fff;
+    margin: 4px 5px;
+}
+
+section.PressGallery_sec {
+    background: #ffffff;
+}
+
+.slick-slider.slick-initialized {
+    min-height: 400px !important;
+    height: 650px;
+    overflow: hidden;
+  }
+  .PressGallery_sec {
+    padding-bottom: 100px;
+  }
