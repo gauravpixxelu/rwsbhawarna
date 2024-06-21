@@ -509,7 +509,7 @@ section.PressGallery_sec {
     background: #ffffff;
 }
 
-.slick-slider.slick-initialized {
+section.press_press_sec__drn1a .slick-slider.slick-initialized {
     min-height: 400px !important;
     height: 650px;
     overflow: hidden;
@@ -517,3 +517,6 @@ section.PressGallery_sec {
   .PressGallery_sec {
     padding-bottom: 100px;
   }
+  .row.congress-view .slick-slider.slick-initialized {
+    height: auto;
+}

@@ -152,7 +152,7 @@ const HamburgerNavbar = () => {
             {/* <li><Link href="#">Pre-Nur to UKG Activity</Link></li> */}
             <li><Link href="#">Student Council</Link></li>
             {/* <li><Link href="#">British Council</Link></li> */}
-            <li><Link href="#">Children Science Congress</Link></li>
+            <li><Link href="/activities/children-science-congress">Children Science Congress</Link></li>
             <li><Link href="/activities/school-house">School Houses</Link></li>
             </ul>
             )}
