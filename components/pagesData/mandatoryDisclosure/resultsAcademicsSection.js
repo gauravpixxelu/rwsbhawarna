@@ -19,27 +19,27 @@ const ResultsAcademicsSection = () => {
                         <tr>
                             <td>1</td>
                             <td>FEE STRUCTURE OF THE SCHOOL</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/fee-structure/</Link></td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>ANNUAL ACADEMIC CALANDER</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/calendar/</Link></td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/management-committee/</Link></td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/management-committee/</Link></td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION AS PER APPLICABLILITY</td>
-                            <td><Link href="#">www.rwsbhawarna.com/affiliation-letter/</Link></td>
+                            <td><Link href="#">https://www.rwsbhawarna.com/results/</Link></td>
                         </tr>
                     </tbody>
                 </Table>
