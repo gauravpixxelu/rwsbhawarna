@@ -520,3 +520,32 @@ section.press_press_sec__drn1a .slick-slider.slick-initialized {
   .row.congress-view .slick-slider.slick-initialized {
     height: auto;
 }
+
+
+
+.PressGallery_sec .slick-slider button {
+    border-radius: 50%;
+    border: 1px solid #000!important;
+    padding: 20px;
+    background: #fff;
+}
+
+.PressGallery_sec .slick-slider button:before {
+    color: #000;
+    top: -8px !important;
+    position: relative;
+    right: 9px;
+}
+
+.PressGallery_sec button.slick-arrow.slick-prev {
+    position: absolute !important;
+    left: -56px !important;
+}
+.PressGallery_sec button.slick-arrow.slick-next {
+    position: absolute !important;
+    right: -56px !important;
+}
+section.PressGallery_sec {
+    padding: 50px 0;
+    background: #afafaf3b;
+}
