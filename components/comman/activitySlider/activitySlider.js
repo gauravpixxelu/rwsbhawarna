@@ -19,12 +19,12 @@ const activity = [
         title: 'Archery',
         text: 'Our school proudly offers an archery program for students of all ages and skill levels. This exciting sport combines physical activity with mental focus, fostering self-discipline, concentration, and hand-eye coordination in a safe and supportive environment. Under the guidance of qualified instructors, students learn proper technique, safety protocols, and the thrill of hitting the target',
     },
-    {
-        id: 3,
-        image: '/images/activity/img3.jpg',
-        title: 'British Council',
-        text: 'Our school offers international exposure in learning through collaboration with the British Council.',
-    },
+    // {
+    //     id: 3,
+    //     image: '/images/activity/img3.jpg',
+    //     title: 'British Council',
+    //     text: 'Our school offers international exposure in learning through collaboration with the British Council.',
+    // },
     {
         id: 4,
         image: '/images/activity/img4.jpg',
