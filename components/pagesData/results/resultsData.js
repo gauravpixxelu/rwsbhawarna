@@ -7,6 +7,17 @@ function ResultsData() {
     return (
         <>
 
+        {/* TOPPER CLASS TENTH 2020-21 SECTION END */}
+
+
+        <div className={resultsStyle.pdf_configration}>
+                <div className="container">
+                    <embed src="/pdf/result/result-2024.pdf" type="application/pdf" />
+                </div>
+            </div>
+
+            {/* TOPPER CLASS TENTH 2020-21 SECTION START */}
+
             {/* TOPPER CLASS TENTH 2020-21 SECTION START */}
 
             <section className={resultsStyle.heading_core_system}>

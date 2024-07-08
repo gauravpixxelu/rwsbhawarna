@@ -189,7 +189,7 @@ marquee.school_bells ul li {
 }
 @media screen and (max-width:767px) {
     .video_container:before {
-        padding-bottom: 50%;
+        padding-bottom: 0%;
     }
     .belowbanner_sec {
         padding: 20px 0;
@@ -233,4 +233,38 @@ marquee.school_bells ul li {
         font-size: 44px;
         bottom: 0;
     }
+    .video_mobile {
+        top: 0 !important;
+    }
+    .banner_sec {
+        height: 100% !important;
+    }
+    h2.banner_txt {
+        font-size: 36px !important;
+    }
+    .button_mute {
+        position: absolute !important;
+        bottom: 35px !important;
+        font-size: 10px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait),
+       (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+    
+        .video_mobile video {
+            height: 100% !important;
+        }
+        .banner_sec {
+            height: 100% !important;
+        }
+        .button_mute {
+            bottom: 0 !important;
+        }
+        .video_mobile {
+            top: 0 !important;
+        }
+
 }

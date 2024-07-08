@@ -82,10 +82,9 @@ const activity = [
     {
         id: 13,
         image: '/images/activity/img13.jpg',
-        title: 'ATal Tinkernig Lab',
+        title: 'Atal Tinkernig Lab',
         text: 'ATL is the flagship initiative of AIM, the government of India, to nurture an innovative mindset amongst the school students. RWS feels proud to be the only school in the vicinity with ATAL TINKERING LAB with a goal to foster a design mindset, adaptive learning, computational thinking and physical thinking.',
     },
-
 
 
 ];

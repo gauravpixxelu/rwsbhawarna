@@ -37,21 +37,16 @@ const GeneralInfoSection = () => {
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>PRINCIPAL NAME</td>
-                            <td>Suzana David</td>
+                            <td>PRINCIPAL NAME & QUALIFICATION</td>
+                            <td>MS. SUZANA DAVID, M.A., B.ED</td>
                         </tr>
                         <tr>
                             <td>6</td>
-                            <td>PRINCIPAL QUALIFICATION</td>
-                            <td>M.A.B.E.D</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
                             <td>SCHOOL EMAIL ID</td>
                             <td>rainbowworldschool@gmail.com</td>
                         </tr>
                         <tr>
-                            <td>8</td>
+                            <td>7</td>
                             <td>CONTACT DETAILS (LANDLINE/MOBILE)</td>
                             <td>9882588999</td>
                         </tr>

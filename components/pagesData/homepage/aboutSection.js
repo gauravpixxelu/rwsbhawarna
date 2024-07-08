@@ -9,7 +9,7 @@ const AboutSection = () => {
             <section className={HomeCss.about_sec}>
                 <div className="container">
                     <div className={`${HomeCss.row} row`}>
-                        <div className="col-md-6">
+                        <div className="col-md-6" class="revert-mobile">
                             <div className={HomeCss.about_sec_txt}>
                                 <h6>The Race for excellence has no finish line</h6>
                                 <h3>Rainbow World School, Bhawarna</h3>

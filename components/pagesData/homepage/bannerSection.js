@@ -40,7 +40,7 @@ const VideoSlider = () => {
   return (
     <section className={`${HomeCss.banner_sec} banner-slider`} style={{ overflow: 'hidden', height: '730px', position: 'relative', }}>
       <div className={HomeCss.video_container} style={{ position: 'relative', overflow: 'hidden', height: '100%' }}>
-        <div style={{ position: 'relative', top: '-130px',  }}>
+        <div className={HomeCss.video_mobile} style={{ position: 'relative', top: '-130px',  }}>
           {!videoError ? (
             <video
               ref={videoRef}
@@ -58,7 +58,7 @@ const VideoSlider = () => {
               Failed to load video.
             </div>
           )}
-          <button
+          <button className={HomeCss.button_mute}
             onClick={handleMuteToggle}
             style={{
               position: 'relative',

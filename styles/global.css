@@ -433,7 +433,7 @@ button.nav-link.active {
         display: none;
     }
     .website-header {
-        padding: 0 10px;
+        padding: 5px 10px;
     }
     .header-box > img {
         width: 220px;
@@ -444,7 +444,7 @@ button.nav-link.active {
     }
     .menu-bar {
         width: 100%;
-        top: 98px;
+        top: 60px;
     }
     .menu-bar ul.open-menu li a {
         padding: 15px 20px;
@@ -465,7 +465,7 @@ button.nav-link.active {
     }
     .sub-menu-item .sub-menu {
         width: 100%;
-        top: 98px;
+        top: 60px;
         z-index: 9998;
     }
     .sub-menu-item > p {
@@ -477,9 +477,50 @@ button.nav-link.active {
         padding: 0;
         position: absolute;
         left: 25px;
-        top: 120px;
+        top: 80px;
         z-index: 10000;
     }
+
+
+/* Mobile rsponsive design Start */
+
+.header-box a img {
+    width: 100%;
+    height: auto;
+}
+.header-hamburger {
+    height: 40px;
+    width: 40px;
+}
+.header-hamburger span {
+    margin: 4px auto;
+    width: 23px;
+    height: 2px;
+}
+
+body section.press_press_sec__drn1a .slick-slider.slick-initialized {
+    min-height: 200px!important;
+    height: 100px!important;
+    overflow: hidden;
+}
+
+.revert-mobile {
+    order: 2;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logoSlider_logoslider_imgs__CvDTa {
+    height: 150px;
+    width: 150px !important;
+}
+
+/* Mobile rsponsive design End */
+
+
+
 }
 
 
@@ -548,4 +589,31 @@ section.press_press_sec__drn1a .slick-slider.slick-initialized {
 section.PressGallery_sec {
     padding: 50px 0;
     background: #afafaf3b;
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait),
+       (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+    
+        .custom-btn {
+            padding: 10px 10px;
+            font-size: 15px;
+        }
+        .header-box a img {
+            width: 200px;
+            height: auto;
+        }
+        .website-header {
+            padding: 15px 30px;
+        }
+        .header-social-icons ul li a img {
+            width: 100% !important;
+            display: block;
+        }
+        
+
 }

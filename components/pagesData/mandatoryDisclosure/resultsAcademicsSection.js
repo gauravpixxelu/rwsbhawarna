@@ -24,7 +24,7 @@ const ResultsAcademicsSection = () => {
                         <tr>
                             <td>2</td>
                             <td>ANNUAL ACADEMIC CALANDER</td>
-                            <td><Link href="#">https://www.rwsbhawarna.com/calendar/</Link></td>
+                            <td><Link href="/pdf/mandatory/calender.pdf" target="_blank">https://www.rwsbhawarna.com/calendar/</Link></td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -39,7 +39,7 @@ const ResultsAcademicsSection = () => {
                         <tr>
                             <td>5</td>
                             <td>LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION AS PER APPLICABLILITY</td>
-                            <td><Link href="#">https://www.rwsbhawarna.com/results/</Link></td>
+                            <td><Link href="/pdf/result/result-2024.pdf" target="_blank">https://www.rwsbhawarna.com/results/</Link></td>
                         </tr>
                     </tbody>
                 </Table>

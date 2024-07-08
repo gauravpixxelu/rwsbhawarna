@@ -5,17 +5,46 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Arrows } from "react-bootstrap-icons";
 
-const PressGallery = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        adaptiveHeight: true,
-        Arrows: true,
-    };
+    const PressGallery = () => {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            adaptiveHeight: true,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1024, // screens smaller than 1024px
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768, // screens smaller than 768px
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 480, // screens smaller than 480px
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                }
+            ]
+        };
 
     const images = [
         "/images/press/no-1.png",
